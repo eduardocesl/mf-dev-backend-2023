@@ -33,8 +33,7 @@ namespace mf_dev_backend_2023.Models
         [ForeignKey("VeiculoId")]
         public Veiculo Veiculo { get; set; }
     }
-
-    public enum TipoCombustivel
+        public enum TipoCombustivel
     {
         Crédito,
         Débito,
