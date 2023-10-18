@@ -34,6 +34,7 @@ namespace mf_dev_backend_2023.Models
         public Veiculo Veiculo { get; set; }
     }
         public enum TipoCombustivel
+
     {
         Crédito,
         Débito,
